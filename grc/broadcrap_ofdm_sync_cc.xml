@@ -1,0 +1,15 @@
+<block>
+  <name>Ofdm sync cc</name>
+  <key>broadcrap_ofdm_sync_cc</key>
+  <category>BROADCRAP</category>
+  <import>import broadcrap</import>
+  <make>broadcrap.ofdm_sync_cc()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
